@@ -7,80 +7,136 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 30px;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
         }
-        h1 {
-            font-size: 24px;
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
         }
-        h2 {
-            font-size: 18px;
-            margin-bottom: 5px;
+        header {
+            background: #50b3a2;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
         }
-        h3 {
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
             font-size: 16px;
-            margin-bottom: 5px;
         }
-        p {
-            margin-bottom: 10px;
+        header ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
         }
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-            margin-bottom: 10px;
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #cccccc;
+            font-weight: bold;
+        }
+        #main {
+            margin: 30px;
+            white-space: pre-line;
+        }
+        #download-button {
+            display: block;
+            width: 200px;
+            height: 50px;
+            margin: 20px auto;
+            background-color: #50b3a2;
+            color: white;
+            text-align: center;
+            border-radius: 10px;
+            line-height: 50px;
+            font-weight: bold;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
-    <h1>Igor Salimzhanov</h1>
-    <p>Belgrade, Serbia</p>
-    <p>Email: <a href="mailto:mail@isalimzhanov.me">mail@isalimzhanov.me</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/igor-salimzhanov" target="_blank">linkedin.com/in/igor-salimzhanov</a></p>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Igor</span> Salimzhanov</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="https://linkedin.com/in/igor-salimzhanov/">LinkedIn</a></li>
+                    <li><a href="cv.isalimzhanov.me">CV</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <h2>Summary</h2>
-    <p>Adaptable Business Analyst with extensive experience in the financial sector, particularly within government agencies. Skilled in data consolidation and analysis, risk assessment, compliance, and business intelligence systems. Proficient in technical writing, software failure analysis, and problem-solving, with a customer-centric approach and excellent communication skills.<br>
-    Tools and Technologies: SQL, Miro, Microsoft Excel.</p>
+    <section id="main">
+        <div class="container">
+            <p>
+                IGOR SALIMZHANOV<br>
+                Belgrade, Serbia | +381 63 8059672 | mail@isalimzhanov.me | LinkedIn linkedin.com/in/igor-salimzhanov/ |<br>
+                CV cv.isalimzhanov.me<br>
+                <br>
+                SUMMARY<br>
+                Adaptable Business Analyst with 11 years of experience in finance (FinTech) and government structures (GovTech).<br>
+                With a keen focus on utilizing my strong communication skills, I have unified internal stakeholders in addressing business challenges such as data consolidation and analysis, risk assessment, compliance, and business intelligence systems. Additionally, I possess strong proficiency in technical writing and software failure analysis.<br>
+                <br>
+                WORK EXPERIENCE<br>
+                Leading Business Analyst, Committee of Finance of Saint Petersburg Feb 2022 – Mar 2023<br>
+                A government structure responsible for managing financial resources, budgeting, and ensuring financial stability in the city. The organisation collaborates with various public and private sector entities to drive economic growth, foster financial transparency, and maintain regulatory compliance.<br>
+                <br>
+                • Developed comprehensive user documentation, maintained API documentation, and drafted information exchange agreements.<br>
+                • Сreated a risk assessment, compliance, and business intelligence system from scratch, integrating 70 data sources, implementing seven new services, and reducing waiting times from day to hour for 5,000+ users.<br>
+                • Ensured compliance with anti-money laundering (AML) regulations through thorough financial process assessments.<br>
+                • Identified cost-saving opportunities, reducing operational expenses by 10% without compromising service quality.<br>
+                • Presented complex financial matters to high-level government officials, facilitating informed decision-making.<br>
+                • Resolved crucial financial reporting discrepancies through comprehensive data analysis, preventing reputational damage and penalties.<br>
+                • Worked closely with professionals from different fields, such as decision-makers, designers, and developers, to create a robust financial planning framework. Our collective efforts significantly improved the city's annual budget forecast accuracy by 5%. This enhancement increased profitability by 14% year-on-year.<br>
+                <br>
+                Leading Site Reliability Engineer, Department of the Federal Treasury for Saint Petersburg Jun 2012 – Feb 2022<br>
+                • Analysed failures and violations in software systems and developed a framework for their elimination and prevention.<br>
+                • Managed and supported the operation of software applications for clients;<br>
+                • Gathered and analysed requirements for implementing new features from clients. Effectively prioritised these needs and handled the timeline for their implementation.<br>
+                <br>
+                EDUCATION<br>
+                Saint Petersburg State University of Finance and Economics Sep 2003 – Jul 2008<br>
+                Specialist degree; Accounting, analysis and audit, Daytime / Full-time<br>
+                <br>
+                ADDITIONAL EDUCATION<br>
+                Implementations of the public services platform, Aug 2022 – Nov 2022<br>
+                The Russian Presidential Academy of National Economy and Public Administration<br>
+                <br>
+                Testing Automation Engineer, E-learning Providers Mar 2018 – Jun 2019<br>
+                <br>
+                System Administrator, E-learning Providers Sep 2021 – Sep 2022<br>
+                <br>
+                SKILLS<br>
+                • Tools and technologies: SQL, Miro Wireframe, Microsoft Excel, Postman, SOAP UI, UML, BPMN.<br>
+                • Skills: Data Analysis, Requirements Analysis, Risk Assessment, Regulatory Compliance, Business Intelligence (BI), Business Process Improvement, Regulatory Analysis, Technical Writing, Communication, Financial Reporting<br>
+            </p>
+            <p><a href="Igor_Salimzhanov_CV.pdf" download="Igor_Salimzhanov_CV.pdf">
+            <button> Download CV </button></a></p>
+        </div>
+    </section>
 
-    <h2>Experience</h2>
-    <h3>Leading Business Analyst</h3>
-    <p>Committee of Finance of Saint Petersburg<br>
-    Feb 2022 – Mar 2023 (1 yr 2 mos)</p>
-    <p>The Committee of Finance is a government agency responsible for managing financial resources, budgeting, and ensuring financial stability in the city. The organisation collaborates with various public and private sector entities to drive economic growth, foster financial transparency, and maintain regulatory compliance.</p>
-    <ul>
-        <li>Developed comprehensive user documentation, maintained API documentation, and drafted information exchange agreements.</li>
-        <li>I created a risk assessment, compliance, and business intelligence system, integrating 70 data sources, implementing seven new services, and reducing waiting times for 5,000+ users.</li>
-        <li>Through thorough financial process assessments, it ensured compliance with anti-money laundering (AML) regulations.</li>
-        <li>I identified cost-saving opportunities, reducing operational expenses by 10% without compromising service quality.</li>
-        <li>I presented complex financial matters to high-level government officials, facilitating informed decision-making.</li>
-        <li>It resolved crucial financial reporting discrepancies through comprehensive data analysis, preventing reputational damage and penalties.</li>
-        <li>I collaborated with interdisciplinary teams to develop a robust financial planning framework, improving economic forecast accuracy.</li>
-    </ul>
-
-    <h3>Leading Site Reliability Engineer</h3>
-    <p>Department of the Federal Treasury for Saint Petersburg<br>
-    Jul 2012 – Feb 2022 (9 yrs 8 mos)</p>
-    <ul>
-        <li>Managed and supported the operation of software applications for internal and external clients;</li>
-        <li>Analyzed failures and violations in software systems, developed proposals for their elimination and prevention.</li>
-    </ul>
-
-    <h2>Education</h2>
-    <ul>
-        <li>GeekBrains<br>Automation Testing Engineer, Software Development<br>Oct 2018 – Jun 2019</li>
-        <li>GeekBrains<br>Testing Engineer, Software Development<br>Jan 2018 – Sep 2018</li>
-        <li>St. Petersburg State University of Economics<br>Specialist degree, Accounting, Analysis, and Audit<br>2005 – 2008<br>Institute of Economics and Management of Service Enterprises, Daytime/Full-time</li>
-    </ul>
-
-    <h2>Licenses & Certifications</h2>
-    <p>Implementation of the Public Services Platform - The Russian Presidential Academy of National Economy and Public Administration (RANEPA)<br>
-    Issued Nov 2022<br>
-    Credential ID 2270-2022-У-ЦПРиКЦТ</p>
-
-    <h2>Skills</h2>
-    <p>Data Analysis, Requirements Analysis, Risk Assessment, Regulatory Compliance, Business Intelligence (BI), Business Process Improvement, Regulatory Analysis, Technical Writing, Communication, Financial Reporting</p>
-
-     <!-- Download CV as PDF button -->
-    <p><a href="Igor_Salimzhanov_CV.pdf" download="Igor_Salimzhanov_CV.pdf"><button style="background-color: #0066cc; color: white; padding: 10px 20px; border: none; cursor: pointer; font-size: 16px;">Download CV as PDF</button></a></p>
+    <footer>
+        <p>Igor Salimzhanov, Belgrade, Serbia</p>
+    </footer>
 </body>
 </html>
-
